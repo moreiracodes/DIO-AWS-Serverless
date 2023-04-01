@@ -6,11 +6,11 @@ It was requested to build an infrastructure with Serverless Framework and CloudF
 
 I have did not issues with NodeJS and CRUD logic, but soon the troubles start to show up.
 
-## #1 - Insert issue
+# The main issue
 
 The insert function was properly making the request and had the correct response, but the item was not recorded in the DynamoDB table.
 
-### 1.1 - Solution 
+## Solution 
 
 Troubleshooting took a while until I understood how to trace logs in the AWS ecosystem with CloudWatch, but I finally got it!
 
