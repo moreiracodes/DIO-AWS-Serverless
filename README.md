@@ -12,6 +12,6 @@ The insert function was properly making the request and had the correct response
 
 ## Solution 
 
-Troubleshooting took a while until I understood how to trace logs in the AWS ecosystem with [CloudWatch](https://aws.amazon.com/cloudwatch/), but I finally got it!
+Troubleshooting took a while until I understand how to trace logs in the AWS ecosystem with [CloudWatch](https://aws.amazon.com/cloudwatch/), but I finally got it!
 
 I don't know why, but the permissions to write on DynamoDB that were set on serverless.yml weren't attached. So, when an insert (putItem) was requested, the API response was okay, and no issues were shown to the user. Then, manually, I set the permissions in the [IAM](https://aws.amazon.com/iam/) console, and it ran as expected.
