@@ -2,7 +2,7 @@
 
 This project was proposed by DIO AWS Bootcamp and was designed to create a serverless infrastructure to run a simple CRUD system with Amazon AWS.
 
-It was requested to build an infrastructure with [Serverless Framework](https://www.serverless.com/) and [CloudFormation](https://aws.amazon.com/cloudformation/), using [NodeJS](https://nodejs.org/en), that would automate the creation of other services (such as [API Gateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/) functions, [DynamoDB tables](https://aws.amazon.com/dynamodb/), and necessary access policies).
+It was requested to build an infrastructure with [Serverless Framework](https://www.serverless.com/) and [CloudFormation](https://aws.amazon.com/cloudformation/), using [NodeJS](https://nodejs.org/en), that would automate create of other services (such as [API Gateway](https://aws.amazon.com/api-gateway/), [Lambda](https://aws.amazon.com/lambda/) functions, [DynamoDB tables](https://aws.amazon.com/dynamodb/), and necessary access policies).
 
 I have did not issues with NodeJS and CRUD logic, but soon the troubles start to show up.
 
